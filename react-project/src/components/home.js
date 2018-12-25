@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Banner from '../components/banner';
 import ArtistsList from './artistList';
 
-const URL_ARTISTS = 'http://localhost:3004/artists';
+const URL_ARTISTS = 'http://localhost:3004/artists'; //gotten via json-server
 
 class Home extends Component {
     constructor(props){
